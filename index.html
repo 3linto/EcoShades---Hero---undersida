@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoShades</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">    <!-- ADOBE FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/rut8syh.css">
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- MY STYLE/SCRIPT -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js/hero.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/headerScroll.js" defer></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <header class="site-header">
+            <!-- LOGO -->
+            <a href="" class="logo">
+                <img src="assets/images/logo.svg" alt="EcoShades logo">
+            </a>
+    
+            <!-- MENU -->
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="" class="menu__link">All sunglasses</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Gallery</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Shop</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <!-- BUTTONS -->
+            <div class="site-header__buttons">
+                <a href="" class="button">Shop now</a>
+    
+                <!-- FAVOURITES BUTTON -->
+                <button class="favourites-button">
+                    <img src="assets/icons/icon-favourites.svg" alt="">
+                </button>
+                <!-- MENU BUTTON -->
+                <button id="menu-button">
+                    <div class="hamburger"></div>
+                    <!-- <img src="assets/icons/icon-menu.svg" alt=""> -->
+                </button>
+            </div>
+        </header>
+
+        <!-- FULL MENU -->
+        <nav class="full-menu">
+
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="" class="menu__link">All sunglasses</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Gallery</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Shop</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- SOCIAL - IN FULL MENU -->
+            <ul class="social__resp">
+                <ul class="social__list">
+                    <!-- PINTEREST -->
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.9978 11.3437C21.9978 17.4204 17.0753 22.3437 10.9998 22.3437C9.86453 22.3437 8.7736 22.1708 7.74476 21.8514C8.19266 21.1196 8.8623 19.922 9.11064 18.9683C9.24368 18.4538 9.79358 16.3514 9.79358 16.3514C10.1528 17.0345 11.1994 17.6155 12.3125 17.6155C15.6296 17.6155 18.0199 14.5639 18.0199 10.7716C18.0199 7.13891 15.0531 4.41996 11.2393 4.41996C6.49418 4.41996 3.97086 7.60464 3.97086 11.0776C3.97086 12.6921 4.83118 14.7014 6.2015 15.3401C6.40992 15.4377 6.52079 15.3933 6.56957 15.1937C6.60505 15.0429 6.79131 14.2933 6.87556 13.9474C6.90217 13.8365 6.88887 13.7389 6.80018 13.6325C6.35227 13.078 5.98863 12.0667 5.98863 11.122C5.98863 8.69577 7.82458 6.34939 10.9555 6.34939C13.6562 6.34939 15.5498 8.19012 15.5498 10.8248C15.5498 13.801 14.0464 15.8635 12.0907 15.8635C11.0131 15.8635 10.2016 14.972 10.4632 13.8764C10.7736 12.5679 11.3723 11.1575 11.3723 10.2127C11.3723 9.36996 10.92 8.66472 9.97983 8.66472C8.8756 8.66472 7.98867 9.80464 7.98867 11.3349C7.98867 12.3107 8.31683 12.9671 8.31683 12.9671C8.31683 12.9671 7.23034 17.5712 7.03078 18.4317C6.80904 19.3808 6.89774 20.7204 6.99087 21.5897C2.9021 19.9885 0.00183105 16.0054 0.00183105 11.3437C0.00183105 5.26714 4.92431 0.34375 10.9998 0.34375C17.0753 0.34375 21.9978 5.26714 21.9978 11.3437Z"/>
+                            </svg>                             
+                        </a>
+                    </li>
+                    <!-- TWITTER -->
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.0931 9.31563L21.283 0H19.342L12.231 8.08844L6.5511 0H0L8.58901 12.2313L0 22H1.94095L9.45075 13.4583L15.4489 22H22L13.0925 9.31563H13.0931ZM10.4348 12.3389L9.5644 11.121L2.64022 1.42966H5.62138L11.209 9.251L12.0792 10.4689L19.3429 20.6353H16.3621L10.4348 12.3394V12.3389Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <!-- FACEBOOK -->
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 11.0669C22 4.95335 17.0766 0 11 0C4.92339 0 0 4.95335 0 11.0669C0 16.5906 4.02254 21.1691 9.28125 22V14.2661H6.48689V11.0669H9.28125V8.62864C9.28125 5.85521 10.9224 4.32325 13.436 4.32325C14.6398 4.32325 15.8985 4.53923 15.8985 4.53923V7.26134H14.5111C13.145 7.26134 12.7187 8.11456 12.7187 8.98965V11.0669H15.7695L15.2816 14.2661H12.7187V22C17.9775 21.1691 22 16.5906 22 11.0669Z"/>
+                            </svg>                               
+                        </a>
+                    </li>
+                    <!-- INSTAGRAM -->
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.0025 5.35948C7.88098 5.35948 5.36319 7.87783 5.36319 11C5.36319 14.1222 7.88098 16.6405 11.0025 16.6405C14.1239 16.6405 16.6417 14.1222 16.6417 11C16.6417 7.87783 14.1239 5.35948 11.0025 5.35948ZM11.0025 14.6671C8.98528 14.6671 7.3362 13.0225 7.3362 11C7.3362 8.97746 8.98037 7.33292 11.0025 7.33292C13.0245 7.33292 14.6687 8.97746 14.6687 11C14.6687 13.0225 13.0196 14.6671 11.0025 14.6671ZM18.1877 5.12875C18.1877 5.8602 17.5988 6.44438 16.8724 6.44438C16.1411 6.44438 15.5571 5.85529 15.5571 5.12875C15.5571 4.40221 16.146 3.81312 16.8724 3.81312C17.5988 3.81312 18.1877 4.40221 18.1877 5.12875ZM21.9227 6.46402C21.8393 4.70166 21.4368 3.14058 20.146 1.8544C18.8601 0.568225 17.2994 0.165681 15.5374 0.0773179C13.7215 -0.0257726 8.27853 -0.0257726 6.46258 0.0773179C4.70552 0.160772 3.14479 0.563316 1.85399 1.84949C0.56319 3.13567 0.165644 4.69675 0.0773006 6.45911C-0.0257669 8.27547 -0.0257669 13.7196 0.0773006 15.536C0.160736 17.2983 0.56319 18.8594 1.85399 20.1456C3.14479 21.4318 4.70061 21.8343 6.46258 21.9227C8.27853 22.0258 13.7215 22.0258 15.5374 21.9227C17.2994 21.8392 18.8601 21.4367 20.146 20.1456C21.4319 18.8594 21.8344 17.2983 21.9227 15.536C22.0258 13.7196 22.0258 8.28037 21.9227 6.46402ZM19.5767 17.4849C19.1939 18.4471 18.4528 19.1883 17.4859 19.5761C16.038 20.1505 12.6025 20.018 11.0025 20.018C9.40245 20.018 5.96196 20.1456 4.51902 19.5761C3.55705 19.1932 2.81595 18.452 2.42822 17.4849C1.85399 16.0367 1.9865 12.6004 1.9865 11C1.9865 9.39964 1.8589 5.95838 2.42822 4.51512C2.81104 3.55294 3.55215 2.81167 4.51902 2.42385C5.96687 1.84949 9.40245 1.98204 11.0025 1.98204C12.6025 1.98204 16.0429 1.8544 17.4859 2.42385C18.4479 2.80676 19.189 3.54803 19.5767 4.51512C20.1509 5.96329 20.0184 9.39964 20.0184 11C20.0184 12.6004 20.1509 16.0416 19.5767 17.4849Z"/>
+                            </svg>                                
+                        </a>
+                    </li>
+                </ul>
+
+        </nav>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <!-- TITLE/DESCRIPTION -->
+            <div class="hero__main">
+                <div class="hero__inner">
+                    <div class="hero__content">
+                        <h1 class="hero__title">
+                            Shades up with <br><span>nature</span> and <span>urban</span> style.
+                        </h1>
+                        <p class="hero__desc">
+                            Explore our range of sunglasses where modern design meets recycled natural materials. Find <br>your perfect style and stand out with <strong>EcoShades</strong>.
+                        </p> 
+                        <a href="" class="button button--big">Shop now</a>
+                    </div>
+                </div>
+            </div>
+
+                <!-- SLIDES IMAGES -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__inner"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__inner"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__inner"></div>
+                    </div>
+                </div>
+
+                <!-- SLIDES ARROWS -->
+                <div class="swiper-arrow-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" viewBox="0 0 17 20">
+                        <g id="icon-arrow-left" transform="translate(155.033 20) rotate(180)">
+                        <path id="Path_1480" data-name="Path 1480" d="M13.74,0,25.034,9.9,13.52,20h5.486L30.52,9.915,30.507,9.9l.013-.011L19.225,0Z" transform="translate(124.514 0)"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="swiper-arrow-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" viewBox="0 0 17 20">
+                        <g id="icon-arrow-right" transform="translate(-138.033)">
+                        <path id="Path_1480" data-name="Path 1480" d="M13.74,0,25.034,9.9,13.52,20h5.486L30.52,9.915,30.507,9.9l.013-.011L19.225,0Z" transform="translate(124.514 0)"/>
+                        </g>
+                    </svg>
+                </div>
+
+            </div>
+
+            <!-- SOCIALS -->
+            <div class="social">
+                <ul class="social__list">
+                    <!-- PINTEREST -->
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.9978 11.3437C21.9978 17.4204 17.0753 22.3437 10.9998 22.3437C9.86453 22.3437 8.7736 22.1708 7.74476 21.8514C8.19266 21.1196 8.8623 19.922 9.11064 18.9683C9.24368 18.4538 9.79358 16.3514 9.79358 16.3514C10.1528 17.0345 11.1994 17.6155 12.3125 17.6155C15.6296 17.6155 18.0199 14.5639 18.0199 10.7716C18.0199 7.13891 15.0531 4.41996 11.2393 4.41996C6.49418 4.41996 3.97086 7.60464 3.97086 11.0776C3.97086 12.6921 4.83118 14.7014 6.2015 15.3401C6.40992 15.4377 6.52079 15.3933 6.56957 15.1937C6.60505 15.0429 6.79131 14.2933 6.87556 13.9474C6.90217 13.8365 6.88887 13.7389 6.80018 13.6325C6.35227 13.078 5.98863 12.0667 5.98863 11.122C5.98863 8.69577 7.82458 6.34939 10.9555 6.34939C13.6562 6.34939 15.5498 8.19012 15.5498 10.8248C15.5498 13.801 14.0464 15.8635 12.0907 15.8635C11.0131 15.8635 10.2016 14.972 10.4632 13.8764C10.7736 12.5679 11.3723 11.1575 11.3723 10.2127C11.3723 9.36996 10.92 8.66472 9.97983 8.66472C8.8756 8.66472 7.98867 9.80464 7.98867 11.3349C7.98867 12.3107 8.31683 12.9671 8.31683 12.9671C8.31683 12.9671 7.23034 17.5712 7.03078 18.4317C6.80904 19.3808 6.89774 20.7204 6.99087 21.5897C2.9021 19.9885 0.00183105 16.0054 0.00183105 11.3437C0.00183105 5.26714 4.92431 0.34375 10.9998 0.34375C17.0753 0.34375 21.9978 5.26714 21.9978 11.3437Z"/>
+                            </svg>                             
+                        </a>
+                    </li>
+                    <!-- TWITTER -->
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.0931 9.31563L21.283 0H19.342L12.231 8.08844L6.5511 0H0L8.58901 12.2313L0 22H1.94095L9.45075 13.4583L15.4489 22H22L13.0925 9.31563H13.0931ZM10.4348 12.3389L9.5644 11.121L2.64022 1.42966H5.62138L11.209 9.251L12.0792 10.4689L19.3429 20.6353H16.3621L10.4348 12.3394V12.3389Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <!-- FACEBOOK -->
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 11.0669C22 4.95335 17.0766 0 11 0C4.92339 0 0 4.95335 0 11.0669C0 16.5906 4.02254 21.1691 9.28125 22V14.2661H6.48689V11.0669H9.28125V8.62864C9.28125 5.85521 10.9224 4.32325 13.436 4.32325C14.6398 4.32325 15.8985 4.53923 15.8985 4.53923V7.26134H14.5111C13.145 7.26134 12.7187 8.11456 12.7187 8.98965V11.0669H15.7695L15.2816 14.2661H12.7187V22C17.9775 21.1691 22 16.5906 22 11.0669Z"/>
+                            </svg>                               
+                        </a>
+                    </li>
+                    <!-- INSTAGRAM -->
+                    <li class="social__item">
+                        <a href="" class="social__link">
+                            <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.0025 5.35948C7.88098 5.35948 5.36319 7.87783 5.36319 11C5.36319 14.1222 7.88098 16.6405 11.0025 16.6405C14.1239 16.6405 16.6417 14.1222 16.6417 11C16.6417 7.87783 14.1239 5.35948 11.0025 5.35948ZM11.0025 14.6671C8.98528 14.6671 7.3362 13.0225 7.3362 11C7.3362 8.97746 8.98037 7.33292 11.0025 7.33292C13.0245 7.33292 14.6687 8.97746 14.6687 11C14.6687 13.0225 13.0196 14.6671 11.0025 14.6671ZM18.1877 5.12875C18.1877 5.8602 17.5988 6.44438 16.8724 6.44438C16.1411 6.44438 15.5571 5.85529 15.5571 5.12875C15.5571 4.40221 16.146 3.81312 16.8724 3.81312C17.5988 3.81312 18.1877 4.40221 18.1877 5.12875ZM21.9227 6.46402C21.8393 4.70166 21.4368 3.14058 20.146 1.8544C18.8601 0.568225 17.2994 0.165681 15.5374 0.0773179C13.7215 -0.0257726 8.27853 -0.0257726 6.46258 0.0773179C4.70552 0.160772 3.14479 0.563316 1.85399 1.84949C0.56319 3.13567 0.165644 4.69675 0.0773006 6.45911C-0.0257669 8.27547 -0.0257669 13.7196 0.0773006 15.536C0.160736 17.2983 0.56319 18.8594 1.85399 20.1456C3.14479 21.4318 4.70061 21.8343 6.46258 21.9227C8.27853 22.0258 13.7215 22.0258 15.5374 21.9227C17.2994 21.8392 18.8601 21.4367 20.146 20.1456C21.4319 18.8594 21.8344 17.2983 21.9227 15.536C22.0258 13.7196 22.0258 8.28037 21.9227 6.46402ZM19.5767 17.4849C19.1939 18.4471 18.4528 19.1883 17.4859 19.5761C16.038 20.1505 12.6025 20.018 11.0025 20.018C9.40245 20.018 5.96196 20.1456 4.51902 19.5761C3.55705 19.1932 2.81595 18.452 2.42822 17.4849C1.85399 16.0367 1.9865 12.6004 1.9865 11C1.9865 9.39964 1.8589 5.95838 2.42822 4.51512C2.81104 3.55294 3.55215 2.81167 4.51902 2.42385C5.96687 1.84949 9.40245 1.98204 11.0025 1.98204C12.6025 1.98204 16.0429 1.8544 17.4859 2.42385C18.4479 2.80676 19.189 3.54803 19.5767 4.51512C20.1509 5.96329 20.0184 9.39964 20.0184 11C20.0184 12.6004 20.1509 16.0416 19.5767 17.4849Z"/>
+                            </svg>                                
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- AD TEXT -->
+            <div class="ad-text">
+                Each pair is <span>handcrafted</span>, <br>unique, and fashion trend-inspired.
+            </div>
+        </section>
+
+        <!-- PRODUCT GALLERY -->
+        <section class="product-gallery">
+            <div class="product-gallery__inner">
+                <div class="product-gallery__home">
+                    <div class="product-gallery__arrow"><a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" viewBox="0 0 17 20">
+                            <g id="icon-arrow-left" transform="translate(155.033 20) rotate(180)">
+                              <path id="Path_1480" data-name="Path 1480" d="M13.74,0,25.034,9.9,13.52,20h5.486L30.52,9.915,30.507,9.9l.013-.011L19.225,0Z" transform="translate(124.514 0)"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="product-gallery__text">Home <strong>/ Shop</strong></div></a>
+                </div>
+                <header class="product-gallery__header">
+                    <h2 class="product-gallery__title">Our most popular shades</h2>
+                </header>
+                <p class="product-gallery__count">9 products</p>
+                <div class="product-gallery__content">
+
+                    <!-- PRODUCT 1 -->
+                    <div class="product-item">
+                        <div class="product-item__inner">
+
+                            <div class="product-item__card">
+                                <figure class="product-item__image"><img src="assets/images/1.jpg" alt=""></figure>
+                                <div class="product-item__tag">
+                                    <span class="tag">Top rated</span>
+                                </div>
+                                <div class="product-item__favourites">
+                                    <button class="favourites-button favourites-button--save">
+                                        <img src="assets/icons/icon-favourites-big.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-item__content">
+                                <div class="product-item__info">
+                                    <h3 class="product-item__title"><a href="">Ash</a></h3>
+                                    <a href="" class="product-item__price">599kr</a>
+                                </div>
+                                <a href="" class="button">Shop now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT 2 -->
+                    <div class="product-item">
+                        <div class="product-item__inner">
+
+                            <div class="product-item__card">
+                                <figure class="product-item__image"><img src="assets/images/2.jpg" alt=""></figure>
+                                <div class="product-item__tag">
+                                    <span class="tag">Top rated</span>
+                                </div>
+                                <div class="product-item__favourites">
+                                    <button class="favourites-button favourites-button--save">
+                                        <img src="assets/icons/icon-favourites-big.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-item__content">
+                                <div class="product-item__info">
+                                    <h3 class="product-item__title"><a href="">Ebony</a></h3>
+                                    <a href="" class="product-item__price">599kr</a>
+                                </div>
+                                <a href="" class="button">Shop now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT 3 -->
+                    <div class="product-item">
+                        <div class="product-item__inner">
+
+                            <div class="product-item__card">
+                                <figure class="product-item__image"><img src="assets/images/3.jpg" alt=""></figure>
+                                <div class="product-item__tag">
+                                    <span class="tag">Top rated</span>
+                                </div>
+                                <div class="product-item__favourites">
+                                    <button class="favourites-button favourites-button--save">
+                                        <img src="assets/icons/icon-favourites-big.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-item__content">
+                                <div class="product-item__info">
+                                    <h3 class="product-item__title"><a href="">Mahogany</a></h3>
+                                    <a href="" class="product-item__price">599kr</a>
+                                </div>
+                                <a href="" class="button">Shop now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT 4 -->
+                    <div class="product-item">
+                        <div class="product-item__inner">
+
+                            <div class="product-item__card">
+                                <figure class="product-item__image"><img src="assets/images/4.jpg" alt=""></figure>
+                                <div class="product-item__tag">
+                                    <span class="tag">Top rated</span>
+                                </div>
+                                <div class="product-item__favourites">
+                                    <button class="favourites-button favourites-button--save">
+                                        <img src="assets/icons/icon-favourites-big.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-item__content">
+                                <div class="product-item__info">
+                                    <h3 class="product-item__title"><a href="">Cherry</a></h3>
+                                    <a href="" class="product-item__price">599kr</a>
+                                </div>
+                                <a href="" class="button">Shop now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT 5 -->
+                    <div class="product-item">
+                        <div class="product-item__inner">
+
+                            <div class="product-item__card">
+                                <figure class="product-item__image"><img src="assets/images/5.jpg" alt=""></figure>
+                                <div class="product-item__tag">
+                                    <span class="tag">Top rated</span>
+                                </div>
+                                <div class="product-item__favourites">
+                                    <button class="favourites-button favourites-button--save">
+                                        <img src="assets/icons/icon-favourites-big.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-item__content">
+                                <div class="product-item__info">
+                                    <h3 class="product-item__title"><a href="">Willow</a></h3>
+                                    <a href="" class="product-item__price">599kr</a>
+                                </div>
+                                <a href="" class="button">Shop now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT 6 -->
+                    <div class="product-item">
+                        <div class="product-item__inner">
+
+                            <div class="product-item__card">
+                                <figure class="product-item__image"><img src="assets/images/6.jpg" alt=""></figure>
+                                <div class="product-item__tag">
+                                    <span class="tag">Top rated</span>
+                                </div>
+                                <div class="product-item__favourites">
+                                    <button class="favourites-button favourites-button--save">
+                                        <img src="assets/icons/icon-favourites-big.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-item__content">
+                                <div class="product-item__info">
+                                    <h3 class="product-item__title"><a href="">Maple</a></h3>
+                                    <a href="" class="product-item__price">599kr</a>
+                                </div>
+                                <a href="" class="button">Shop now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT 7 -->
+                    <div class="product-item">
+                        <div class="product-item__inner">
+
+                            <div class="product-item__card">
+                                <figure class="product-item__image"><img src="assets/images/7.jpg" alt=""></figure>
+                                <div class="product-item__tag">
+                                    <span class="tag">Top rated</span>
+                                </div>
+                                <div class="product-item__favourites">
+                                    <button class="favourites-button favourites-button--save">
+                                        <img src="assets/icons/icon-favourites-big.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-item__content">
+                                <div class="product-item__info">
+                                    <h3 class="product-item__title"><a href="">Walnut</a></h3>
+                                    <a href="" class="product-item__price">599kr</a>
+                                </div>
+                                <a href="" class="button">Shop now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT 8 -->
+                    <div class="product-item">
+                        <div class="product-item__inner">
+
+                            <div class="product-item__card">
+                                <figure class="product-item__image"><img src="assets/images/8.jpg" alt=""></figure>
+                                <div class="product-item__tag">
+                                    <span class="tag">Top rated</span>
+                                </div>
+                                <div class="product-item__favourites">
+                                    <button class="favourites-button favourites-button--save">
+                                        <img src="assets/icons/icon-favourites-big.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-item__content">
+                                <div class="product-item__info">
+                                    <h3 class="product-item__title"><a href="">Pine</a></h3>
+                                    <a href="" class="product-item__price">599kr</a>
+                                </div>
+                                <a href="" class="button">Shop now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT 9 -->
+                    <div class="product-item">
+                        <div class="product-item__inner">
+
+                            <div class="product-item__card">
+                                <figure class="product-item__image"><img src="assets/images/9.jpg" alt=""></figure>
+                                <div class="product-item__tag">
+                                    <span class="tag">Top rated</span>
+                                </div>
+                                <div class="product-item__favourites">
+                                    <button class="favourites-button favourites-button--save">
+                                        <img src="assets/icons/icon-favourites-big.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product-item__content">
+                                <div class="product-item__info">
+                                    <h3 class="product-item__title"><a href="">Birch</a></h3>
+                                    <a href="" class="product-item__price">599kr</a>
+                                </div>
+                                <a href="" class="button">Shop now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER / SIGNUP -->
+        <section class="signup">
+            <div class="signup__inner">
+                <div class="signup__main">
+                    <h3 class="signup__title">Join our ShadesClub and get a special welcome gift.</h3>
+                    <div class="signup__content">
+                        <span class="signup__text">Sign up - get 15% off your first order</span>
+                        <div class="signup__form">
+                            <form action="">
+                                <input class="email" type="email" name="" id="" placeholder="Email">
+                                <input class="button" type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="site-footer__inner">
+                
+                <div class="site-footer__main">
+                    <div class="site-footer__content">
+                        <div class="social__content">
+                            <h3 class="social__title">About us</h3>
+                            <ul class="social__group">
+                                <li class="social__text"><a href="">About EcoShades</a></li>
+                                <li class="social__text"><a href="">Sustainability</a></li>
+                                <li class="social__text"><a href="">Career</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="social__content">
+                            <h3 class="social__title">Contact</h3>
+                            <ul class="social__group">
+                                <li class="social__text"><a href="">Contact us</a></li>
+                                <li class="social__text"><a href="">FAQ</a></li>
+                                <li class="social__text"><a href="">Orders & Payments</a></li>
+                                <li class="social__text"><a href="">Delivery</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="social__content">
+                            <h3 class="social__title">Follow us</h3>
+                            <ul class="social-media">
+                            <!-- PINTEREST -->
+                            <li class="social__item">
+                                <a href="https://pinterest.com" target="_blank" class="social__link">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21.9978 11.3437C21.9978 17.4204 17.0753 22.3437 10.9998 22.3437C9.86453 22.3437 8.7736 22.1708 7.74476 21.8514C8.19266 21.1196 8.8623 19.922 9.11064 18.9683C9.24368 18.4538 9.79358 16.3514 9.79358 16.3514C10.1528 17.0345 11.1994 17.6155 12.3125 17.6155C15.6296 17.6155 18.0199 14.5639 18.0199 10.7716C18.0199 7.13891 15.0531 4.41996 11.2393 4.41996C6.49418 4.41996 3.97086 7.60464 3.97086 11.0776C3.97086 12.6921 4.83118 14.7014 6.2015 15.3401C6.40992 15.4377 6.52079 15.3933 6.56957 15.1937C6.60505 15.0429 6.79131 14.2933 6.87556 13.9474C6.90217 13.8365 6.88887 13.7389 6.80018 13.6325C6.35227 13.078 5.98863 12.0667 5.98863 11.122C5.98863 8.69577 7.82458 6.34939 10.9555 6.34939C13.6562 6.34939 15.5498 8.19012 15.5498 10.8248C15.5498 13.801 14.0464 15.8635 12.0907 15.8635C11.0131 15.8635 10.2016 14.972 10.4632 13.8764C10.7736 12.5679 11.3723 11.1575 11.3723 10.2127C11.3723 9.36996 10.92 8.66472 9.97983 8.66472C8.8756 8.66472 7.98867 9.80464 7.98867 11.3349C7.98867 12.3107 8.31683 12.9671 8.31683 12.9671C8.31683 12.9671 7.23034 17.5712 7.03078 18.4317C6.80904 19.3808 6.89774 20.7204 6.99087 21.5897C2.9021 19.9885 0.00183105 16.0054 0.00183105 11.3437C0.00183105 5.26714 4.92431 0.34375 10.9998 0.34375C17.0753 0.34375 21.9978 5.26714 21.9978 11.3437Z" fill="#683C11"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!-- TWITTER -->
+                            <li class="social__item">
+                                <a href="https://twitter.com" target="_blank" class="social__link">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.0931 9.31563L21.283 0H19.342L12.231 8.08844L6.5511 0H0L8.58901 12.2313L0 22H1.94095L9.45075 13.4583L15.4489 22H22L13.0925 9.31563H13.0931ZM10.4348 12.3389L9.5644 11.121L2.64022 1.42966H5.62138L11.209 9.251L12.0792 10.4689L19.3429 20.6353H16.3621L10.4348 12.3394V12.3389Z" fill="#683C11"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!-- FACEBOOK -->
+                            <li class="social__item">
+                                <a href="https://facebook.com" target="_blank" class="social__link">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 11.0669C22 4.95335 17.0766 0 11 0C4.92339 0 0 4.95335 0 11.0669C0 16.5906 4.02254 21.1691 9.28125 22V14.2661H6.48689V11.0669H9.28125V8.62864C9.28125 5.85521 10.9224 4.32325 13.436 4.32325C14.6398 4.32325 15.8985 4.53923 15.8985 4.53923V7.26134H14.5111C13.145 7.26134 12.7187 8.11456 12.7187 8.98965V11.0669H15.7695L15.2816 14.2661H12.7187V22C17.9775 21.1691 22 16.5906 22 11.0669Z" fill="#683C11"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!-- INSTAGRAM -->
+                            <li class="social__item">
+                                <a href="https://instagram.com" target="_blank" class="social__link">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.0025 5.35948C7.88098 5.35948 5.36319 7.87783 5.36319 11C5.36319 14.1222 7.88098 16.6405 11.0025 16.6405C14.1239 16.6405 16.6417 14.1222 16.6417 11C16.6417 7.87783 14.1239 5.35948 11.0025 5.35948ZM11.0025 14.6671C8.98528 14.6671 7.3362 13.0225 7.3362 11C7.3362 8.97746 8.98037 7.33292 11.0025 7.33292C13.0245 7.33292 14.6687 8.97746 14.6687 11C14.6687 13.0225 13.0196 14.6671 11.0025 14.6671ZM18.1877 5.12875C18.1877 5.8602 17.5988 6.44438 16.8724 6.44438C16.1411 6.44438 15.5571 5.85529 15.5571 5.12875C15.5571 4.40221 16.146 3.81312 16.8724 3.81312C17.5988 3.81312 18.1877 4.40221 18.1877 5.12875ZM21.9227 6.46402C21.8393 4.70166 21.4368 3.14058 20.146 1.8544C18.8601 0.568225 17.2994 0.165681 15.5374 0.0773179C13.7215 -0.0257726 8.27853 -0.0257726 6.46258 0.0773179C4.70552 0.160772 3.14479 0.563316 1.85399 1.84949C0.56319 3.13567 0.165644 4.69675 0.0773006 6.45911C-0.0257669 8.27547 -0.0257669 13.7196 0.0773006 15.536C0.160736 17.2983 0.56319 18.8594 1.85399 20.1456C3.14479 21.4318 4.70061 21.8343 6.46258 21.9227C8.27853 22.0258 13.7215 22.0258 15.5374 21.9227C17.2994 21.8392 18.8601 21.4367 20.146 20.1456C21.4319 18.8594 21.8344 17.2983 21.9227 15.536C22.0258 13.7196 22.0258 8.28037 21.9227 6.46402ZM19.5767 17.4849C19.1939 18.4471 18.4528 19.1883 17.4859 19.5761C16.038 20.1505 12.6025 20.018 11.0025 20.018C9.40245 20.018 5.96196 20.1456 4.51902 19.5761C3.55705 19.1932 2.81595 18.452 2.42822 17.4849C1.85399 16.0367 1.9865 12.6004 1.9865 11C1.9865 9.39964 1.8589 5.95838 2.42822 4.51512C2.81104 3.55294 3.55215 2.81167 4.51902 2.42385C5.96687 1.84949 9.40245 1.98204 11.0025 1.98204C12.6025 1.98204 16.0429 1.8544 17.4859 2.42385C18.4479 2.80676 19.189 3.54803 19.5767 4.51512C20.1509 5.96329 20.0184 9.39964 20.0184 11C20.0184 12.6004 20.1509 16.0416 19.5767 17.4849Z" fill="#683C11"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="site-footer__bottom">
+                        <a href="" class="logo">
+                            <img src="assets/images/logo.svg" alt="EcoShades logo">
+                        </a>
+                        <div class="footer__copyright">
+                            &copy; 2024 EcoShades - All Rights Reserved
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+        
+
+    </div>
+
+</body>
+</html>
